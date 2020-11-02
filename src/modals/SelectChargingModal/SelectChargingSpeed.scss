@@ -1,0 +1,13 @@
+.charging-speed-modal .modal-wrapper {
+  position: absolute;
+  display: block;
+  top: calc(100% - (350px));
+  --height: 350px;
+  --border-radius: 10px 10px 0px 0px;
+  --box-shadow: 0px -0.5px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.device-sheet-modal,
+.device-sheet-modal ion-backdrop {
+  pointer-events: none;
+}

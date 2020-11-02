@@ -1,0 +1,25 @@
+.progress-bar {
+  border-radius: 5px;
+  height: 15px;
+  border: 1px solid var(--ion-color-primary);
+}
+
+ion-item {
+  --border-radius: 10px;
+  ion-label {
+    margin-inline-end: 0px;
+  }
+}
+
+ion-thumbnail {
+  width: 90px;
+  height: 90px;
+  margin-inline-end: 5px;
+
+  img {
+    position: absolute;
+    left: -15px;
+    height: 90px;
+    width: auto;
+  }
+}
