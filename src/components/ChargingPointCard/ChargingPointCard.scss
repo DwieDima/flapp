@@ -1,7 +1,13 @@
-.progress-bar {
+.progress-bar-completed {
   border-radius: 5px;
   height: 15px;
   border: 1px solid var(--ion-color-primary);
+}
+
+.progress-bar-loading {
+  border-radius: 5px;
+  height: 15px;
+  border: 1px solid var(--ion-color-warning);
 }
 
 ion-item {

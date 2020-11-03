@@ -32,7 +32,8 @@ const ChargingPointCard: React.FC<Props> = ({ currentChargeCycle }) => {
             <IonRow className="ion-align-items-center">
               <IonCol className="ion-no-padding">
                 <IonProgressBar
-                  className="progress-bar"
+                  className="progress-bar-loading"
+                  color="warning"
                   type="indeterminate"
                 ></IonProgressBar>
               </IonCol>
