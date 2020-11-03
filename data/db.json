@@ -48,7 +48,7 @@
   ],
   "current-charge-cycle": {
     "id": "f209490a-1838-11eb-adc1-0242ac120002",
-    "status": "CHARGING",
+    "status": "CONNECTED",
     "chargingPoint": 1,
     "started": "2020-10-23T08:09:30.056Z",
     "ended": null,
