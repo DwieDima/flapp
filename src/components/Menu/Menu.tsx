@@ -1,5 +1,6 @@
 import {
   IonContent,
+  IonFooter,
   IonHeader,
   IonIcon,
   IonImg,
@@ -10,6 +11,7 @@ import {
   IonMenu,
   IonMenuToggle,
   IonNote,
+  IonRouterLink,
   IonToolbar
 } from '@ionic/react';
 import {
@@ -100,6 +102,13 @@ const Menu: React.FC = () => {
           })}
         </IonList>
       </IonContent>
+      <IonFooter className="ion-text-center">
+        <h6>
+          &copy; &nbsp;
+          <IonRouterLink href="https://www.siobra.de/">Siobra</IonRouterLink>
+          &nbsp;2020
+        </h6>
+      </IonFooter>
     </IonMenu>
   );
 };
