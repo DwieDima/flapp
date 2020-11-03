@@ -45,8 +45,8 @@ You should learn the tools used in this project to understand how things work.
 
 ### Ionic Components for Material design
 
-Material UI is an implementation of Material Design for react
-It has layout componentst and UI widgets.
+Ionic components are an implementation of Material Design for Android and Cupertino Design for IOS.
+It has layout components and UI widgets.
 
 - https://ionicframework.com/docs/components
 
