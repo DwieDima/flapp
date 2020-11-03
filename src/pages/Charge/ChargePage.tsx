@@ -18,7 +18,7 @@ import {
 } from '@ionic/react';
 import React, { useEffect, useState } from 'react';
 import ChargingPointCard from '../../components/ChargingPointCard/ChargingPointCard';
-import SelectChargingSpeedModal from '../../modals/SelectChargingModal/SelectChargingSpeed';
+import SelectChargingSpeedModal from '../../modals/SelectChargingSpeed/SelectChargingSpeed';
 import { ChargeCycle } from '../../models/charge-cycle.model';
 import { deviceService } from '../../services/DeviceService';
 import './ChargePage.scss';
