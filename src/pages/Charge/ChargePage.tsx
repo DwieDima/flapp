@@ -38,29 +38,25 @@ const ChargePage: React.FC = () => {
   }, []);
 
   return (
-    <IonPage id="charge-page">
-      <IonHeader>
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonMenuButton />
-          </IonButtons>
-          <IonTitle>Ladestation</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
+    <>
+      <IonPage id="charge-page">
+        <IonHeader>
           <IonToolbar>
-            <IonTitle size="large">Ladestation</IonTitle>
+            <IonButtons slot="start">
+              <IonMenuButton />
+            </IonButtons>
+            <IonTitle>Ladestation</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ChargingPointCard
-          currentChargeCycle={currentChargeCycle}
-          openChargingSpeedModal={openModal}
-        />
-        <SelectChargingSpeedModal isOpen={showModal} closeModal={closeModal} />
-      </IonContent>
-    </IonPage>
+        <IonContent fullscreen>
+          <ChargingPointCard
+            currentChargeCycle={currentChargeCycle}
+            openChargingSpeedModal={openModal}
+          />
+        </IonContent>
+      </IonPage>
+      <SelectChargingSpeedModal isOpen={showModal} closeModal={closeModal} />
+    </>
   );
 };
 
